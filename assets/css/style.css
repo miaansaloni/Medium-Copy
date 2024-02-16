@@ -85,12 +85,10 @@ h2 {
   border-radius: 30px;
 }
 
-main {
-  margin-inline: 64px;
-}
 /*TRENDING*/
 #trendHeading {
   margin-top: 2rem;
+  padding-inline-start: 9rem;
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
@@ -145,11 +143,75 @@ main {
   display: flex;
   justify-content: center;
 }
-section {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
+main {
+  margin-inline: 5rem;
 }
+
+/*ARTICLES*/
+section {
+  width: 45%;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.articleInfo {
+  display: flex;
+}
+.articleImg {
+  margin-inline-start: 1rem;
+}
+.articleImg img {
+  width: 200px;
+}
+.MainArtsAuthor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.MainArtsAuthor img {
+  border-radius: 50%;
+  width: 25px;
+}
+.MainArtsAuthor p {
+  font-size: 13px;
+  font-weight: 500;
+  margin-inline-start: 0.3rem;
+}
+.MainArtsTitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.description {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+  margin-bottom: 0.8rem;
+}
+.artFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateReadingTime {
+  display: flex;
+  align-items: center;
+}
+.category {
+  background-color: #f2f2f2;
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  border-radius: 10px;
+}
+
+.category a {
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+
+/*ASIDE*/
 aside {
   margin-inline-start: 4rem;
   flex-basis: 30%;
@@ -197,16 +259,8 @@ aside {
   justify-content: flex-start;
 }
 #foot a {
-  margin-inline: 1rem;
+  margin-inline: 0.8rem;
   margin-block: 0.3rem;
   color: rgb(108, 108, 108);
-  font-size: 14px;
-}
-
-.artFoot {
-  display: flex;
-}
-
-.articleImg img {
-  width: 200px;
+  font-size: 15px;
 }
